@@ -1,0 +1,203 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c3a07bcb-22dd-4081-a6bb-67b66428b80b",
+  "files": [],
+  "subMetas": {
+    "76763": {
+      "importer": "gltf-scene",
+      "uuid": "c3a07bcb-22dd-4081-a6bb-67b66428b80b@76763",
+      "displayName": "",
+      "id": "76763",
+      "name": "truck02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5d0b5": {
+      "importer": "gltf-mesh",
+      "uuid": "c3a07bcb-22dd-4081-a6bb-67b66428b80b@5d0b5",
+      "displayName": "",
+      "id": "5d0b5",
+      "name": "car_005_0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "47c37": {
+      "importer": "gltf-embeded-image",
+      "uuid": "c3a07bcb-22dd-4081-a6bb-67b66428b80b@47c37",
+      "displayName": "",
+      "id": "47c37",
+      "name": "truck02Blue.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3a1cd": {
+      "importer": "texture",
+      "uuid": "c3a07bcb-22dd-4081-a6bb-67b66428b80b@3a1cd",
+      "displayName": "",
+      "id": "3a1cd",
+      "name": "truck02Blue.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model/cars/truck/truck02Blue.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5f218": {
+      "importer": "gltf-material",
+      "uuid": "c3a07bcb-22dd-4081-a6bb-67b66428b80b@5f218",
+      "displayName": "",
+      "id": "5f218",
+      "name": "truck02Blue.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "truck02Blue",
+        "remap": "db://assets/model/cars/truck/truck02Blue.jpg",
+        "uri": "c3a07bcb-22dd-4081-a6bb-67b66428b80b@47c37"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "c3a07bcb-22dd-4081-a6bb-67b66428b80b@76763",
+    "assetFinder": {
+      "meshes": [
+        "c3a07bcb-22dd-4081-a6bb-67b66428b80b@5d0b5"
+      ],
+      "skeletons": [],
+      "textures": [
+        "c3a07bcb-22dd-4081-a6bb-67b66428b80b@3a1cd"
+      ],
+      "materials": [
+        "c3a07bcb-22dd-4081-a6bb-67b66428b80b@5f218"
+      ],
+      "scenes": [
+        "c3a07bcb-22dd-4081-a6bb-67b66428b80b@76763"
+      ]
+    },
+    "materials": {
+      "c3a07bcb-22dd-4081-a6bb-67b66428b80b@5f218": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "d68fcc20-4c94-4d20-b638-6fdec8097b22@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 202,
+              "g": 202,
+              "b": 202,
+              "a": 255
+            },
+            "emissiveScale": 0,
+            "shininessExponent": 2,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 243,
+              "g": 243,
+              "b": 243,
+              "a": 255
+            },
+            "specularFactor": 0
+          },
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

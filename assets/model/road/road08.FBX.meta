@@ -1,0 +1,125 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d3e44853-4b00-4e49-8f63-76a77801204a",
+  "files": [],
+  "subMetas": {
+    "44034": {
+      "importer": "gltf-mesh",
+      "uuid": "d3e44853-4b00-4e49-8f63-76a77801204a@44034",
+      "displayName": "",
+      "id": "44034",
+      "name": "001.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3b1d8": {
+      "importer": "gltf-embeded-image",
+      "uuid": "d3e44853-4b00-4e49-8f63-76a77801204a@3b1d8",
+      "displayName": "",
+      "id": "3b1d8",
+      "name": "贴图 #7.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4b8d7": {
+      "importer": "texture",
+      "uuid": "d3e44853-4b00-4e49-8f63-76a77801204a@4b8d7",
+      "displayName": "",
+      "id": "4b8d7",
+      "name": "贴图 #7.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d3e44853-4b00-4e49-8f63-76a77801204a@3b1d8"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8dbc3": {
+      "importer": "gltf-material",
+      "uuid": "d3e44853-4b00-4e49-8f63-76a77801204a@8dbc3",
+      "displayName": "",
+      "id": "8dbc3",
+      "name": "Material #90.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "215a4": {
+      "importer": "gltf-scene",
+      "uuid": "d3e44853-4b00-4e49-8f63-76a77801204a@215a4",
+      "displayName": "",
+      "id": "215a4",
+      "name": "road08.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #7",
+        "uri": "d3e44853-4b00-4e49-8f63-76a77801204a@3b1d8"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "d3e44853-4b00-4e49-8f63-76a77801204a@215a4",
+    "assetFinder": {
+      "meshes": [
+        "d3e44853-4b00-4e49-8f63-76a77801204a@44034"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d3e44853-4b00-4e49-8f63-76a77801204a@4b8d7"
+      ],
+      "materials": [
+        "d3e44853-4b00-4e49-8f63-76a77801204a@8dbc3"
+      ],
+      "scenes": [
+        "d3e44853-4b00-4e49-8f63-76a77801204a@215a4"
+      ]
+    }
+  }
+}

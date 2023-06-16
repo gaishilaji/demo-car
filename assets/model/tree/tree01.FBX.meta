@@ -1,0 +1,125 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7d5c2956-0477-41d5-a787-e2f1394b8cdc",
+  "files": [],
+  "subMetas": {
+    "e114c": {
+      "importer": "gltf-mesh",
+      "uuid": "7d5c2956-0477-41d5-a787-e2f1394b8cdc@e114c",
+      "displayName": "",
+      "id": "e114c",
+      "name": "Box021.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "208d6": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7d5c2956-0477-41d5-a787-e2f1394b8cdc@208d6",
+      "displayName": "",
+      "id": "208d6",
+      "name": "trees01.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba755": {
+      "importer": "texture",
+      "uuid": "7d5c2956-0477-41d5-a787-e2f1394b8cdc@ba755",
+      "displayName": "",
+      "id": "ba755",
+      "name": "trees01.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7d5c2956-0477-41d5-a787-e2f1394b8cdc@208d6"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "61b61": {
+      "importer": "gltf-material",
+      "uuid": "7d5c2956-0477-41d5-a787-e2f1394b8cdc@61b61",
+      "displayName": "",
+      "id": "61b61",
+      "name": "trees01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a31c6": {
+      "importer": "gltf-scene",
+      "uuid": "7d5c2956-0477-41d5-a787-e2f1394b8cdc@a31c6",
+      "displayName": "",
+      "id": "a31c6",
+      "name": "tree01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "trees01",
+        "uri": "7d5c2956-0477-41d5-a787-e2f1394b8cdc@208d6"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "7d5c2956-0477-41d5-a787-e2f1394b8cdc@a31c6",
+    "assetFinder": {
+      "meshes": [
+        "7d5c2956-0477-41d5-a787-e2f1394b8cdc@e114c"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7d5c2956-0477-41d5-a787-e2f1394b8cdc@ba755"
+      ],
+      "materials": [
+        "7d5c2956-0477-41d5-a787-e2f1394b8cdc@61b61"
+      ],
+      "scenes": [
+        "7d5c2956-0477-41d5-a787-e2f1394b8cdc@a31c6"
+      ]
+    }
+  }
+}
