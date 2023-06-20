@@ -3,12 +3,9 @@ const { ccclass, property } = _decorator;
 
 @ccclass('GameMap')
 export class GameMap extends Component {
-    start() {
-
-    }
-
-    update(deltaTime: number) {
-        
-    }
+    @property({
+        type: [Node]
+    })
+    paths: Node[] = []
 }
 

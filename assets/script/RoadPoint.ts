@@ -13,7 +13,7 @@ enum RoadPointType {
 }
 Enum(RoadPointType)
 
-enum MoveType {
+export enum MoveType {
   LINE,
   CURVE
 }
