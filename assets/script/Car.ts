@@ -1,5 +1,5 @@
 import {_decorator, Component, Node, Vec3} from 'cc';
-import {MoveType, RoadPoint} from 'db://assets/script/RoadPoint'
+import {MoveType, RoadPoint, RoadPointType} from 'db://assets/script/RoadPoint'
 
 const {ccclass, property} = _decorator;
 
@@ -29,10 +29,22 @@ export class Car extends Component {
           }
       }
       this.node.setWorldPosition(this._offset)
-      // Vec3.subtract(tmpVec, pointB.worldPosition, this._offset)
+      Vec3.subtract(tmpVec, pointB.worldPosition, this._offset)
+      console.log(tmpVec.length())
+      if (tmpVec.length() <= 0.1) {
+        this._handleArrival()
+      }
     }
   }
 
+  private _handleArrival() {
+    console.log('到了老铁！！', this._curRoadPoint.type)
+    if (this._curRoadPoint.type === RoadPointType.END) {
+      this.stopRunning()
+      console.log('到终点了老铁')
+    }
+    this._curRoadPoint = this._curRoadPoint.nextStation.getComponent(RoadPoint)
+  }
 
   public setEntry(entry: Node) {
     this.node.setWorldPosition(entry.worldPosition);

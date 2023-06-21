@@ -3,7 +3,7 @@ import {_decorator, Component, Node, Vec3, Enum} from 'cc';
 const {ccclass, property} = _decorator;
 
 
-enum RoadPointType {
+export enum RoadPointType {
   NORMAL,
   START,
   GREETING,
